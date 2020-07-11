@@ -9,9 +9,11 @@ const color = 7506394; // Color of the embed in decimal.
 const onFormSubmit = (form) => {
   const responses = form.response.getItemResponses();
   const fields = responses.map(response => {
+    const question = response.getItem().getTitle();
+    const answer = response.getResponse() || '`<Empty>`';
     const field = {
-      name: response.getItem().getTitle(),
-      value: response.getResponse() || '`<Empty>`'
+      name: question,
+      value: answer
     };
 
     return field;
