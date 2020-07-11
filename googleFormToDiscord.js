@@ -6,7 +6,7 @@ const title = ''; // Specify the title of the embed within the simple quotes. If
 const color = 7506394; // Color of the embed in decimal.
 /* DO NOT EDIT UNDER THIS LINE */
 
-function onFormSubmit (form) {
+const onFormSubmit = (form) => {
   const responses = form.response.getItemResponses();
   const fields = responses.map(response => {
     const field = {
@@ -31,4 +31,4 @@ function onFormSubmit (form) {
     payload: JSON.stringify(payload),
     contentType: 'application/json'
   });
-}
+};
