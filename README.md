@@ -1,6 +1,6 @@
 # googleFormToDiscord
 
-Automatically forwards Google Form responses to Discord.
+Automatically forwards Google Forms responses to Discord.
 
 # Instructions
 
@@ -27,4 +27,4 @@ Automatically forwards Google Form responses to Discord.
 
 ### Note
 
-Each Discord embed field value can only contain up to 1024 characters, and each embed field as a whole can only contain up to 6000 characters. If these numbers are exceeded, the form will fail to be posted. Take this into account and limit the number of characters your form accepts to avoid exceeding these restrictions (icon of the 3 dots under each response -> `Response validation` -> `Maximum character count`).
+Each Discord embed field value can only contain up to 1024 characters, and each embed as a whole can only contain up to 6000 characters. If these numbers are exceeded, the message will fail to be posted. Take this into account and limit the number of characters your form accepts to avoid exceeding these restrictions (icon of the 3 dots under each response -> `Response validation` -> `Maximum character count`).
