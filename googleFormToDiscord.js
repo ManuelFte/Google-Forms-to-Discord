@@ -11,7 +11,7 @@ function onFormSubmit (form) {
   const fields = responses.map(response => {
     const field = {
       name: response.getItem().getTitle(),
-      value: response.getResponse() ?? '`<Empty>`'
+      value: response.getResponse() || '`<Empty>`'
     };
 
     return field;
