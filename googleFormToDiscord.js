@@ -39,7 +39,7 @@ const onFormSubmit = (form) => {
       color,
       title: title || form.source.getTitle(),
       fields,
-      footer: { text: footer }
+      'footer.text': footer
     }]
   };
 
