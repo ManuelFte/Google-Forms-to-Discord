@@ -20,7 +20,7 @@ Automatically forwards Google Forms responses to Discord.
 ## Set up the trigger
 
 1. On the menu at the top, click `Edit` -> `Current project's triggers`.
-2. On the next window, click `Add Trigger` ( the blue button on the bottom right).
+2. On the next window, click `Add Trigger` (the blue button on the bottom right).
 3. Set up the trigger as shown below and save:
 
 ![image](https://user-images.githubusercontent.com/896973/87218403-fe84c680-c317-11ea-8ab1-1a8e8dbdf324.png)
