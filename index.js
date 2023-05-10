@@ -2,7 +2,7 @@
 'use strict';
 
 const googleFormsToDiscord = (form) => {
-  const { webhookURL, title, color, timeZone, skipQuestions } = gftdOptions;
+  const { webhookURL, title, color, timeZone, skipQuestions } = gftdConfigs;
 
   const createFields = (responses) => {
     return responses.map((response) => {
