@@ -13,17 +13,18 @@ Automatically forwards Google Forms responses to a Discord channel via a webhook
 ## Install the script
 
 1. On your Google Form, click the icon of the 3 dots on the top right, and choose `Script Editor`.
-2. Replace the default content with the contents of [googleFormsToDiscord.js](https://raw.githubusercontent.com/ManuelFte/Google-Forms-to-Discord/master/googleFormToDiscord.js).
-3. Fill the variables at the top of the script with the requested information.
-4. Click `Save`.
+2. Replace the default content with the contents of [index.js](https://raw.githubusercontent.com/ManuelFte/Google-Forms-to-Discord/master/index.js).
+3. Click the "+" button to add a new file and replace the contents with the contents of [config.default.js](https://raw.githubusercontent.com/ManuelFte/Google-Forms-to-Discord/master/config.default.js).
+4. Fill the variables with the requested information.
+5. Click `Save`.
 
 ## Set up the trigger
 
-1. On the menu at the top, click `Edit` -> `Current project's triggers`.
-2. On the next window, click `Add Trigger` ( the blue button on the bottom right).
+1. Hover the icons on the left sidebar and click `Triggers`.
+2. On the next window, click `Add Trigger` (the blue button on the bottom right).
 3. Set up the trigger as shown below and save:
 
-![image](https://user-images.githubusercontent.com/896973/87218403-fe84c680-c317-11ea-8ab1-1a8e8dbdf324.png)
+![image](https://github.com/ManuelFte/Google-Forms-to-Discord/assets/68722732/6455de65-9b29-4ba7-8ba7-3a0b767c0673)
 
 ### Note
 
