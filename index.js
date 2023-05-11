@@ -1,4 +1,4 @@
-/* global UrlFetchApp gftdOptions */
+/* global UrlFetchApp gftdConfigs */
 'use strict';
 
 const googleFormsToDiscord = (form) => {
