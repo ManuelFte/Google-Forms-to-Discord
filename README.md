@@ -28,4 +28,4 @@ Automatically forwards Google Forms responses to a Discord channel via a webhook
 
 ### Note
 
-Each Discord embed field value can only contain up to 1024 characters, and each embed as a whole can only contain up to 6000 characters. If these numbers are exceeded, the message will fail to be posted. Take this into account and limit the number of characters your form accepts to avoid exceeding these restrictions (icon of the 3 dots under each response -> `Response validation` -> `Maximum character count`).
+Each Discord embed field value can only contain up to 1024 characters, and each embed as a whole can only contain up to 6000 characters. If these numbers are exceeded, the message will fail to be posted. The script does not incorporate any character limit feature because this limit can be set directly from Google Forms, which is the ideal way (icon of the 3 dots under each response -> `Response validation` -> `Maximum character count`).
