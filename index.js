@@ -1,8 +1,8 @@
-/* global UrlFetchApp gftdConfigs */
+/* global UrlFetchApp gftdConfig */
 'use strict';
 
 const googleFormsToDiscord = (form) => {
-  const { webhookURL, title, color, timeZone, skipQuestions } = gftdConfigs;
+  const { webhookUrl, title, color, timeZone, skipQuestions } = gftdConfig;
 
   const createFields = (responses) => {
     return responses.map((response) => {
@@ -72,7 +72,7 @@ const googleFormsToDiscord = (form) => {
       payload: createPayload()
     };
 
-    const response = UrlFetchApp.fetch(webhookURL, params);
+    const response = UrlFetchApp.fetch(webhookUrl, params);
 
     return response;
   };
