@@ -1,1 +1,8 @@
-config.js 
+config.js
+node_modules/
+.DS_Store
+.clasp.json
+.claspignore
+.env
+*.local
+Thumbs.db
